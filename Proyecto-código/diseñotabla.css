@@ -1,25 +1,26 @@
-/* CSS Document */
+/* CSS Document 
+Diseño de las tablas*/
 table{
 border-collapse:collapse;
 }
 .tit{
-background-color:#CCCCCC;
-left:50px;
-font-size:13px;
-width:400px;
+background-color:#fff;
+left:60px;
+font-size:20px;
+width:600px;
 
 }
 
 td{
-font-family:"Trebuchet MS";
-border:#CCCCCC 1px solid;
+font-family:"Arial";
+border:#CCCCCC 2px solid;
 }
 label {
 font-family:"Trebuchet MS";
-font-size:12px;
+font-size:14px;
 }
 a{
-font-family:"Trebuchet MS";
+font-family:"Arial";
 font-size:12px;
 
 }
