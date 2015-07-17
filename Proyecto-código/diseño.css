@@ -1,5 +1,5 @@
 /* Documento CSS con los estilos del portal 
-Desarrollado por Grupo 4
+Desarrollado por Christian Jiménez y Robert Caraguay
 Procesos de Ingeniería de software*/
 body{
 background-color: #CCCCCC;
@@ -68,4 +68,11 @@ border-radius:5px;
 margin-top:40px;
 margin-left:4px;
 border-radius:5px;
+}
+
+ul.navbar {
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    width: 9em 
 }
