@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <link type="text/css" href="jquery-ui-1.8.6.css" rel="Stylesheet" />
 <title>Documento sin t&iacute;tulo</title>
-<link  rel="stylesheet" href="diseño_registro.css" type="text/css" />
+<link  rel="stylesheet" href="diseÃ±o_registro.css" type="text/css" />
  <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
 <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
 <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
@@ -44,10 +44,16 @@ Nombres:</label>
 	<input type="text" name="apellidos2"  size="40px" class="ap2"value="Apellido Materno" onclick="this.value=('')"/> 
     <br />
 	
-	<label class="cedula"> Cédula:</label>
+	<label class="cedula"> CÃ©dula:</label>
 
   
     <input type="text" name="cedula"  size="40px" class="ced"/>
+	<br />
+	
+	<label class="edad"> Edad:</label>
+
+  
+    <input type="text" name="edad"  size="40px" class="ced"/>
 	<br />
  
   <label class="fecha">Fecha de nacimiento:
@@ -63,15 +69,15 @@ Nombres:</label>
  
     <input type="text" name="ciudad"  size="40px" class="cd" value="Escribe tu ciudad" onclick="this.value=('')"/> 
   
-  <label class="pais">País:
+  <label class="pais">PaÃ­s:
   </label>
 
   
-    <input type="text" name="País"  size="40px" class="pa" value="Escribe Tu país" onclick="this.value=('')"/> 
+    <input type="text" name="PaÃ­s"  size="40px" class="pa" value="Escribe Tu paÃ­s" onclick="this.value=('')"/> 
     <br />
   
   <label class="genero">
-  Género:
+  GÃ©nero:
   </label>
 <label class="hombre">M
 </label><input type="radio" name="genero"  class="m"/> 
@@ -84,7 +90,7 @@ Nombres:</label>
     <input type="radio" name="genero"  class="f"/>
     <br  />
     
-   <label class="placa"> Placas del Vehículo:
+   <label class="placa"> Placas del VehÃ­culo:
   </label>
 
   
@@ -98,7 +104,7 @@ Nombres:</label>
     <input type="text" name="usuario"  size="40px" class="user" />
     <br />
   
-  <label class="contraseña">Contraseña:
+  <label class="contraseÃ±a">ContraseÃ±a:
   </label>
 
      <input type="password" name="clave"  size="40px" class="clave"/>
