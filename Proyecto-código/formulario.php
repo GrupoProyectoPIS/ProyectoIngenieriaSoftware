@@ -16,13 +16,10 @@ $(function() {
 
 </script>
 
-
-
-
 </head>
 
 <body>
-<div class="tit"> Crea tu cuenta</div>
+<div class="tit">Crear cuenta</div>
 <div class="registro">
 
 <form action="uno.php" method="post">
@@ -30,21 +27,21 @@ $(function() {
 
 
 <label class="nombres"><br />
-Nombres:</label>
+Nombres Completos:</label>
 
   
     <input type="text" name="nombre"  size="40px" class="n1" value="Primer Nombre" onclick="this.value=('')"/> 
 	<input type="text" name="nombre2"  size="40px"class="n2" value="Segundo Nombre" onclick="this.value=('')" /> 
     <br />
  
-  <label class="apellidos"> Apellidos:</label>
+  <label class="apellidos"> Apellidos Completos:</label>
 
   
     <input type="text" name="apellidos"  size="40px" class="ap1" value="Apellido Paterno" onclick="this.value=('')"/>
 	<input type="text" name="apellidos2"  size="40px" class="ap2"value="Apellido Materno" onclick="this.value=('')"/> 
     <br />
 	
-	<label class="cedula"> Cédula:</label>
+	<label class="cedula"> Cédula/Pasaporte:</label>
 
   
     <input type="text" name="cedula"  size="40px" class="ced"/>
