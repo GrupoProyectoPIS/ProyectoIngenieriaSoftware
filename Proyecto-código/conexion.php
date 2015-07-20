@@ -6,5 +6,4 @@
 	$query = mysql_query("select * from usuarios",$conexion);
 
 	$resultado = ($query,0);
-
 ?>
